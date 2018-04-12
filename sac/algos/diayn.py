@@ -4,10 +4,10 @@ from rllab.core.serializable import Serializable
 from rllab.misc import logger
 from rllab.misc.overrides import overrides
 
-from sac.algos.sac import SAC
-from sac.misc import tf_utils, utils
-from sac.misc.sampler import rollouts
-from sac.policies.hierarchical_policy import FixedOptionPolicy
+from ..algos.sac import SAC
+from ..misc import tf_utils, utils
+from ..misc.sampler import rollouts
+from ..policies.hierarchical_policy import FixedOptionPolicy
 
 from collections import deque
 import gtimer as gt
